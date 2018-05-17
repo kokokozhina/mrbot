@@ -32,22 +32,6 @@ public class GitlabClientImpl implements GitClientApi {
 
     private List<GitlabCommit> masterCommits = new ArrayList<>();
 
-    public GitlabConfigs getGitlabConfigs() {
-        return gitlabConfigs;
-    }
-
-    public void setGitlabConfigs(GitlabConfigs gitlabConfigs) {
-        this.gitlabConfigs = gitlabConfigs;
-    }
-
-    public GitlabAPI getGitlabConnection() {
-        return gitlabConnection;
-    }
-
-    public void setGitlabConnection(GitlabAPI gitlabConnection) {
-        this.gitlabConnection = gitlabConnection;
-    }
-
     private List<GitlabGroup> getGroups(GitlabAPI api) throws IOException {
         return api.getGroups();
     }
@@ -124,8 +108,8 @@ public class GitlabClientImpl implements GitClientApi {
         return mergeRequests.stream().map(s -> printMergeRequest(s, group, project)).collect(Collectors.toList());
     }
 
-    @Override
-    public List<String> getMergeRequests() throws IOException {
+
+    private List<String> getMergeRequests() throws IOException {
         List<String> requiringMergeRequests = new ArrayList<>();
 
 
