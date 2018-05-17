@@ -1,5 +1,5 @@
 /target/
-.other/
-.database/
-.idea/
+/.other/
+/.database/
+/.idea/
 *.iml
