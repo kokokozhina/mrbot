@@ -1,0 +1,4 @@
+gitlab/client/impl/Connection.class
+gitlab/client/impl/GitlabClientImpl.class
+gitlab/client/impl/GitlabConfigs.class
+gitlab/client/impl/Analytics.class

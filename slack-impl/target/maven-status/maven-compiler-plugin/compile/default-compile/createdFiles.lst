@@ -1,0 +1,4 @@
+slack/impl/Session.class
+slack/impl/Channels.class
+slack/impl/SlackConfigs.class
+slack/impl/SlackClientImpl.class

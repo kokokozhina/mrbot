@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bot" />
+        <module name="git-client-api" />
+        <module name="gitlab-client-impl" />
+        <module name="msgr-client-api" />
+        <module name="slack-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bot" target="1.8" />
+      <module name="git-client-api" target="1.8" />
+      <module name="gitlab-client-impl" target="1.8" />
+      <module name="mrbot" target="1.8" />
+      <module name="msgr-client-api" target="1.8" />
+      <module name="slack-impl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
