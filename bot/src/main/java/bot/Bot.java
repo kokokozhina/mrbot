@@ -3,12 +3,14 @@ package bot;
 import git.client.api.GitClientApi;
 import msgr.client.api.MsgrClientApi;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.List;
 
 @Component
+@ComponentScan({"git.client.api", "gitlab.client.impl", "msgr.client.api", "slack.impl"})
 public class Bot {
 
     @Autowired
@@ -39,4 +41,19 @@ public class Bot {
         }
     }
 
+    public GitClientApi getGitClientApi() {
+        return gitClientApi;
+    }
+
+    public void setGitClientApi(GitClientApi gitClientApi) {
+        this.gitClientApi = gitClientApi;
+    }
+
+    public MsgrClientApi getMsgrClientApi() {
+        return msgrClientApi;
+    }
+
+    public void setMsgrClientApi(MsgrClientApi msgrClientApi) {
+        this.msgrClientApi = msgrClientApi;
+    }
 }

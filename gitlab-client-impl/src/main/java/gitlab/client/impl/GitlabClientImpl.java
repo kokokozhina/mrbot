@@ -30,6 +30,22 @@ public class GitlabClientImpl implements GitClientApi {
     @Autowired
     private GitlabAPI gitlabConnection;
 
+    public GitlabConfigs getGitlabConfigs() {
+        return gitlabConfigs;
+    }
+
+    public void setGitlabConfigs(GitlabConfigs gitlabConfigs) {
+        this.gitlabConfigs = gitlabConfigs;
+    }
+
+    public GitlabAPI getGitlabConnection() {
+        return gitlabConnection;
+    }
+
+    public void setGitlabConnection(GitlabAPI gitlabConnection) {
+        this.gitlabConnection = gitlabConnection;
+    }
+
     private List<GitlabCommit> masterCommits = new ArrayList<>();
 
     private List<GitlabGroup> getGroups(GitlabAPI api) throws IOException {
