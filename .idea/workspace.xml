@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11204839-ac6a-4080-8d1b-012fbfd79986" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/target/bot-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bot/target/bot-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/target/surefire-reports/TEST-bot.BotTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot/target/surefire-reports/TEST-bot.BotTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/target/surefire-reports/bot.BotTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bot/target/surefire-reports/bot.BotTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-client-api/target/git-client-api-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/git-client-api/target/git-client-api-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-client-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/git-client-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/gitlab-client-impl-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/gitlab-client-impl-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/TEST-gitlab.client.impl.AnalyticsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/TEST-gitlab.client.impl.AnalyticsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/TEST-gitlab.client.impl.GitlabClientImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/TEST-gitlab.client.impl.GitlabClientImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/gitlab.client.impl.AnalyticsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/gitlab.client.impl.AnalyticsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/gitlab.client.impl.GitlabClientImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gitlab-client-impl/target/surefire-reports/gitlab.client.impl.GitlabClientImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgr-client-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msgr-client-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgr-client-api/target/msgr-client-api-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/msgr-client-api/target/msgr-client-api-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slack-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slack-impl/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slack-impl/target/slack-impl-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slack-impl/target/slack-impl-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slack-impl/target/surefire-reports/TEST-slack.impl.SlackClientImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slack-impl/target/surefire-reports/TEST-slack.impl.SlackClientImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slack-impl/target/surefire-reports/slack.impl.SlackClientImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/slack-impl/target/surefire-reports/slack.impl.SlackClientImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/slack-impl/target/" />
     <ignored path="$PROJECT_DIR$/bot/target/" />
@@ -37,21 +21,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slack-impl/pom.xml">
+    <leaf>
+      <file leaf-file-name="GitClientApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="238">
+              <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configs-slack.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml">
+      <file leaf-file-name="MsgrClientApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            <state relative-caret-position="340">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -88,18 +75,18 @@
         <option value="$PROJECT_DIR$/gitlab-client-impl/src/test/AnalyticsTest.java" />
         <option value="$PROJECT_DIR$/gitlab-client-impl/src/test/java/AnalyticsTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java" />
         <option value="$PROJECT_DIR$/gitlab-client-impl/src/test/java/gitlab/client/impl/AnalyticsTest.java" />
         <option value="$PROJECT_DIR$/gitlab-client-impl/src/main/java/gitlab/client/impl/GitlabClientImpl.java" />
         <option value="$PROJECT_DIR$/gitlab-client-impl/src/test/java/gitlab/client/impl/GitlabClientImplTest.java" />
         <option value="$PROJECT_DIR$/bot/src/test/java/impl/SlackClientImplTest.java" />
         <option value="$PROJECT_DIR$/bot/src/test/java/slack/impl/SlackClientImplTest.java" />
-        <option value="$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java" />
         <option value="$PROJECT_DIR$/slack-impl/src/main/java/slack/impl/SlackClientImpl.java" />
         <option value="$PROJECT_DIR$/bot/src/main/java/bot/Bot.java" />
         <option value="$PROJECT_DIR$/slack-impl/src/test/java/slack/impl/SlackClientImplTest.java" />
         <option value="$PROJECT_DIR$/bot/src/test/java/bot/BotTest.java" />
         <option value="$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml" />
+        <option value="$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java" />
+        <option value="$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java" />
       </list>
     </option>
   </component>
@@ -132,11 +119,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,8 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,84 +143,25 @@
             <path>
               <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="msgr-client-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
+              <item name="msgr-client-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="msgr-client-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="msgr-client-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -241,85 +169,11 @@
             <path>
               <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="msgr-client-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="gitlab-client-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mrbot-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mrbot" type="462c0819:PsiDirectoryNode" />
-              <item name="slack-impl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -562,6 +416,8 @@
       <workItem from="1526792602690" duration="19234000" />
       <workItem from="1526822529222" duration="375000" />
       <workItem from="1526828703060" duration="420000" />
+      <workItem from="1526929231834" duration="347000" />
+      <workItem from="1526929644772" duration="1600000" />
     </task>
     <servers />
   </component>
@@ -598,7 +454,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39152000" />
+    <option name="totallyTimeSpent" value="41099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +466,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948583" />
@@ -620,44 +476,44 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32946378" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36411333" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36324325" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32843652" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24344176" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2508108" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249309" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17357656" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3105981" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3105981" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24654505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32901832" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
@@ -665,12 +521,12 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.27911857" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32946378" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,13 +563,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitlab-client-impl/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -982,20 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bot/src/test/java/bot/BotTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-507">
@@ -1014,13 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitlab-client-impl/src/main/java/gitlab/client/impl/GitlabClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
@@ -1050,8 +878,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slack-impl/src/main/resources/configs-slack.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/gitlab/java-gitlab-api/4.0.0/java-gitlab-api-4.0.0.jar!/org/gitlab/api/GitlabAPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="252" column="29" selection-start-line="252" selection-start-column="29" selection-end-line="252" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitlab-client-impl/src/main/java/gitlab/client/impl/GitlabClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git-client-api/src/main/java/git/client/api/GitClientApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msgr-client-api/src/main/java/msgr/client/api/MsgrClientApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
