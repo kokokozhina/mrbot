@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gitlab.client.impl.GitlabClientImplTest" time="0.398" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gitlab.client.impl.GitlabClientImplTest" time="0.38" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire/surefirebooter4771073102574106175.jar /home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire 2018-05-20T16-16-59_976-jvmRun1 surefire3640822210364330947tmp surefire_14867465317435293476tmp"/>
+    <property name="sun.java.command" value="/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire/surefirebooter6873473520918628395.jar /home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire 2018-05-20T18-05-21_467-jvmRun1 surefire6484692431527105274tmp surefire_19182178841355257234tmp"/>
     <property name="surefire.test.class.path" value="/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/test-classes:/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/classes:/home/kokokozhina/.m2/repository/org/gitlab/java-gitlab-api/4.0.0/java-gitlab-api-4.0.0.jar:/home/kokokozhina/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar:/home/kokokozhina/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar:/home/kokokozhina/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar:/home/kokokozhina/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/kokokozhina/IdeaProjects/mrbot/git-client-api/target/git-client-api-0.1-SNAPSHOT.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.4.2.RELEASE/spring-boot-starter-test-1.4.2.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/boot/spring-boot-test/1.4.2.RELEASE/spring-boot-test-1.4.2.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.4.2.RELEASE/spring-boot-test-autoconfigure-1.4.2.RELEASE.jar:/home/kokokozhina/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar:/home/kokokozhina/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar:/home/kokokozhina/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar:/home/kokokozhina/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar:/home/kokokozhina/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/kokokozhina/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:/home/kokokozhina/.m2/repository/org/assertj/assertj-core/2.5.0/assertj-core-2.5.0.jar:/home/kokokozhina/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar:/home/kokokozhina/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/kokokozhina/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kokokozhina/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/kokokozhina/.m2/repository/org/skyscreamer/jsonassert/1.3.0/jsonassert-1.3.0.jar:/home/kokokozhina/.m2/repository/org/json/json/20140107/json-20140107.jar:/home/kokokozhina/.m2/repository/org/springframework/spring-test/4.3.4.RELEASE/spring-test-4.3.4.RELEASE.jar:/home/kokokozhina/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/kokokozhina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/kokokozhina"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire/surefirebooter4771073102574106175.jar"/>
+    <property name="surefire.real.class.path" value="/home/kokokozhina/IdeaProjects/mrbot/gitlab-client-impl/target/surefire/surefirebooter6873473520918628395.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_171-b11"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="getProjectsByGroupNameTest" classname="gitlab.client.impl.GitlabClientImplTest" time="0.014"/>
-  <testcase name="getMrsByGroupAndProjectTest" classname="gitlab.client.impl.GitlabClientImplTest" time="0.003"/>
+  <testcase name="getProjectsByGroupNameTest" classname="gitlab.client.impl.GitlabClientImplTest" time="0.013"/>
+  <testcase name="getMrsByGroupAndProjectTest" classname="gitlab.client.impl.GitlabClientImplTest" time="0.002"/>
   <testcase name="getGroupsTest" classname="gitlab.client.impl.GitlabClientImplTest" time="0.001"/>
 </testsuite>
